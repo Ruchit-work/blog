@@ -66,7 +66,7 @@ export default function Home() {
         </p>
       </div>
     {/* Trending Topics */}
-    <div className="mt-5">
+    <div className="mt-5 mb-2">
       <h2 className="text-center text-success">Trending Topics</h2>
       <div className="row">
         <div className="col-md-4">
@@ -94,7 +94,7 @@ export default function Home() {
     </div>
   </div>
 </div>
-      <Blog></Blog>
+      {/* <Blog></Blog> */}
       <Script src="/demo.js"></Script>
     </>
   );
